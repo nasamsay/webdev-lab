@@ -1,0 +1,204 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+    margin:0;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo{
+    background-color: #fff;
+    height: 5rem;
+}
+
+.logo img {
+    height:75%;
+    width:20%;
+    padding-top: 10px;
+}
+
+.navbar {
+    background-color: #000;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav{
+    list-style: none;
+    display:flex;
+    color: #bbb;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+#container .scroller {
+    width:100%; 
+    height: 500px;
+}
+
+.scroller img{
+    width:100%;
+    height: 100%;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+
+.btns > button{
+    padding:3px; 
+    margin: 3px; 
+    border-radius: 25%; 
+    width: 50px; 
+    background-color: #888; 
+    color:#bbb; 
+    border-color: #bbb;
+}
+
+.info {
+    display: flex; 
+    align-items:stretch; 
+    justify-content:space-between; 
+    width: 100%; 
+    flex-wrap: nowrap; 
+    margin-top: 10px;
+}
+
+.info div {
+    background-color: #fff;
+    padding:20px; 
+    width: 20rem;
+}
+
+.info div h3 {
+    margin: 0 auto; 
+    padding: 5px; 
+    font: 2em sans-serif;
+}
+
+.content {
+    margin-top: 20px; 
+    background-color: #fff; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.content .cont {
+    width: 60%;
+}
+
+.content .cont h3 {
+    font: 2em sans-serif;
+}
+
+.content .cont h4 {
+    font: 1.5em sans-serif;
+}
+
+.navigation {
+    width: 40%; 
+    padding: 20px;
+}
+
+.navigation h4 {
+    font: 1.5em sans-serif;
+}
+
+.navigation ul {
+    background-color: #bbb; 
+    list-style: none;
+}
+
+.navigation ul li {
+    padding: 20px;
+}
+
+.gallery {
+    padding:10px;
+}
+
+.gallery h3 {
+    font:2em sans-serif;
+}
+
+.gallery .imgs {
+    display: flex;
+}
+
+.gallery .imgs img{
+    width:25%; 
+    height:190px;
+}
+
+.footer { 
+    background-color: #fff; 
+    display: flex; 
+    justify-content: space-between; 
+    padding:10px;
+    margin-top: 1rem;
+}
+
+
+a{
+    color: #bbb;
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: orange;
+}
+
+
+.about{
+    width: 100%;
+    height: 50rem;
+    background-image: url("pexels-tom-verdoot-1972736.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about h1{
+    font:7rem sans-serif;
+    color: #eee;
+}
+
+.about h3{
+    font:3rem sans-serif;
+    color: #bbb;
+}
+
+.about .abt {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.abt div{
+    background-color: #888;
+    color:#fff;
+    padding: 1rem;
+    margin: 3rem;
+    border-radius: 5px;
+    box-shadow: inset;
+    opacity: 0.85;
+}
+
+.abt h4{
+    font: 2.5rem sans-serif;
+}

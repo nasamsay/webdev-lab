@@ -1,0 +1,159 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+    margin:0 auto;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 100%;
+}
+
+.title{
+    padding-top: 0.5rem;
+    line-height: 1em;
+    margin-bottom: 2.5em;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    height:6rem;
+    justify-content: right;
+}
+
+.title h1{
+    font-weight: 650;
+    font-size: xx-large;
+}
+
+.title h3{
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 200;
+}
+
+.logo{
+    background-color: #fff;
+    height: 5rem;
+}
+
+.logo img {
+    height:75%;
+    width:20%;
+    padding-top: 10px;
+}
+
+.navbar {
+    background-color: #000;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav{
+    list-style: none;
+    display:flex;
+    color: #bbb;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+
+.container h1{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.container{
+    width: 33%; 
+    margin:0;
+    text-align: center;
+    display:inline-block;
+}
+
+.mainimage{
+    position: absolute;
+}
+
+.hoverimage{
+    position: relative;
+    opacity: 0;
+    
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+a:hover{
+    color: orange;
+}
+
+.image:hover{
+    .mainimage{
+        opacity: 0;
+    }
+
+    .hoverimage{
+        opacity: 100;
+    }
+}
+
+.image {
+    position: relative;
+    width: 100%;
+}
+
+.image img{
+    
+    width: 100%;
+}  
+
+.container ul,h2,h3{
+    text-align: center;
+    padding: 0;
+}
+
+.container h3{
+    padding-top: 20px;
+}
+
+.container li{
+    list-style: none;
+    line-height: 2;
+}
+
+.button-1 {
+  background-color: #2b2b2b;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  height: 40px;
+  padding: 8px 14px;
+  width: 60%;
+  text-transform: uppercase;
+}
+
+.button-1:hover, .button-1:focus {
+  background-color: #000000;
+}
+
+#footer{
+    display: flex;
+    color: #fff;
+    height: 3rem;
+    background-color: #2b2b2b;
+    margin-top: 5rem;
+    justify-content: right;
+    align-items: center;
+    padding-right: 1.5rem;
+}

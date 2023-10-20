@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form style="display: block; margin-left:10rem; margin-right: 10rem; margin-top: 5rem; margin-bottom:5rem; border-width: 1px; border-color: black;">
+        <h1 style="padding: 20px;">Register to our Online Service</h1>
+        <fieldset name="Personal Details" style="padding: 20px; margin: 20px;">
+        <legend>Personal Details</legend>
+        <label for="First Name">First Name</label><br>
+        <input type="text" name="First Name" placeholder="First Name"><br>
+        <label for="Last Name">Last Name</label><br>
+        <input type="text" name="Last Name" placeholder="Last Name"><br>
+        <label for="date">Date of Birth</label><br>
+        <input type="date" name="date"><br>
+        <label for="email">Email</label><br>
+        <input type="email" placeholder="someone@gmail.com" name="email"><br>
+        <label for="url">URL</label><br>
+        <input type="url" placeholder="www.website.com" name="url"><br>
+        <label for="tel">Phone Number</label><br>
+        <input type="tel" placeholder="00961xxxxx" name="tel"><br>
+        <label for="shoe">Shoesize</label><br>
+        <input type="number" name="shoe" min="1" max="13"><br>
+        <label for="range">Flying Skill Level (1 low - 100 High)</label><br>
+        Low <input type="range"> High
+        </fieldset>
+        <fieldset style="padding: 20px; margin: 20px;">
+        <legend>Billing Address</legend>
+        Address <textarea></textarea><br>
+        <label for="post">Post Code</label><br>
+        <input type="text" name="post"><br>
+        <label for="country">Country</label><br>
+        <input type="text" name="country">
+        </fieldset>
+
+        <fieldset style="padding: 20px; margin: 20px;">
+        <legend>Card Details</legend>
+        <fieldset style="padding: 20px; margin: 10px;">
+        <legend>Card Type</legend>
+        <input type="radio" name="card" value="Visa" id="visa">
+        <label for="visa">Visa</label>
+        <input type="radio" name="card" value="Mastercard" id="mc">
+        <label for="mc">Mastercard</label>
+        <input type="radio" name="card" value="AMEX" id="amex">
+        <label for="amex">AMEX</label>
+        </fieldset>
+        <label for="name">Name</label><br>
+        <input type="text" name="name" placeholder="name as it appears on card"><br>
+        <label for="cardnb">Card Number</label><br>
+        <input type="number" name="cardnb"><br>
+        <label for="security">Security Code</label><br>
+        <input type="password" name="security"><br>
+        <label for="carddt">Expiry Date</label><br>
+        <input type="date">
+        </fieldset>
+        <fieldset style="padding: 20px; margin: 20px;"><button>Register Now</button></fieldset>
+    </form>
+</body>
+</html>
