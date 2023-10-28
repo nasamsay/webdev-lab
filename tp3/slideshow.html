@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <script>
+        const imgs = ["pexels-arnie-watkins-31564821.jpg", "pexels-jacob-morch-457418.jpg", "pexels-jay-pizzle-3802510.jpg", "pexels-prime-cinematics-2036544.jpg"];
+        var i =0;
+        var t;
+        function timedSlideShow(){
+            if(imgs.length == i){
+                i = 0;
+            }
+            else{
+                document.sld.src = imgs[i];
+            }
+            i++;
+
+            t = setTimeout("timedSlideShow()", 2000)
+        }
+
+        function stopTimeOut(){
+            clearTimeout(t)
+            document.sld.src = "pexels-arnie-watkins-31564821.jpg"
+        }
+        
+        
+    </script>
+</head>
+<body>
+    <div style="display: flex; justify-content: center;">
+        <img src="pexels-s-von-hoerst-2676096.jpg" alt=""  name="sld" style="width:70%; height: 600px; background-size: contain;">
+    </div>
+    <div style="display: flex; justify-content: center;">
+        <button onclick="timedSlideShow()">Start</button>
+        <button onclick="stopTimeOut()">Stop</button>
+    </div>
+</body>
+</html>

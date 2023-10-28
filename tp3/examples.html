@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html>
+<body>
+ <script type="text/javascript"> 
+  document.write ("Example 1:")
+ </script>
+ <br><br>
+<script type="text/javascript">
+document.write ("Hello World!")
+</script>
+<br><br>
+<script type="text/javascript">
+    document.write ("Example 2:")
+</script>
+<br><br>
+<SCRIPT LANGUAGE="JavaScript">
+    var GoodMorning = "Good Morning !";
+    var question = "How are you ";
+    var phrase = GoodMorning + "<BR>" + question;
+    document.write (phrase, "today ?");
+</SCRIPT>
+<br><br>
+<script type="text/javascript">
+    document.write ("Example 3:")
+</script>
+<br><br>
+<CENTER>
+    <SCRIPT language = "JavaScript" >
+    var img = "<IMG SRC='me.jpg'> <BR> <H1> this is my photo here</H1>"
+    document.write(img,"<P>");
+    var img = "<IMG SRC='me2.jpg'> <BR> <H1> and this is another photo.... </H1>"
+    document.write(img);
+    </SCRIPT>
+    </CENTER>
+<br><br>
+<script type="text/javascript">
+  document.write ("Example 4:")
+</script>
+<br><br>
+<SCRIPT language = "JavaScript" >
+    var date = new Date();
+    var month = date.getMonth() + 1;
+    var day = date.getDate() ;
+    var year = date.getYear();
+    document.write( "Date of today : " , day, " / ", month, " / "+year, "<BR>");
+    document.write( "time : ", date.getHours(), " : ",date.getMinutes(),
+    
+    " : ",date.getSeconds() );
+</SCRIPT>
+<br><br>
+<script type="text/javascript">
+    document.write ("Example 5:")
+  </script>
+<br><br>
+<SCRIPT language="JavaScript">
+    function calculate() {
+    alert("1+2=3")
+    }
+    </SCRIPT>
+    <FORM>
+    <INPUT TYPE="button" VALUE="Calculate" onClick="calculate()">
+    </FORM>
+<br><br>
+ <script type="text/javascript">
+        document.write ("Example 6:")
+</script>
+<br><br>
+<script type="text/javascript">
+    function mouseOver()
+    {
+    document.b1.src ="w3school1.jpg"
+    }
+    function mouseOut()
+    {
+    document.b1.src ="w3schools.jpg"
+    }
+    </script>
+    <a href="http://www.w3schools.com" target="_blank">
+    <img border="0" alt="Visit W3Schools!" src="w3schools.jpg" name="b1"
+    onMouseOver="mouseOver()" onMouseOut="mouseOut()" />
+    </a>
+ <br><br>
+    <script type="text/javascript">
+           document.write ("Example 7:")
+   </script>
+ <br><br> 
+ <script type="text/javascript">
+    var c=0
+    var t
+    function timedCount()
+    {
+    document.getElementById('txt').value=c
+    c=c+1
+    t=setTimeout("timedCount()",1000)
+    }
+    function stopCount()
+    {
+    clearTimeout(t)
+    }
+    </script>
+    </head><body>
+    <form>
+    <input type="button" value="Start count!" onClick="timedCount()">
+    <input type="text" id="txt">
+    <input type="button" value="Stop count!" onClick="stopCount()">
+    </form>
+</body>
+</html>
