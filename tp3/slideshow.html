@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slideshow</title>
     <script>
-        const imgs = ["pexels-arnie-watkins-31564821.jpg", "pexels-jacob-morch-457418.jpg", "pexels-jay-pizzle-3802510.jpg", "pexels-prime-cinematics-2036544.jpg"];
+        const imgs = ["pexels-arnie-watkins-31564821.jpg", "pexels-jacob-morch-457418.jpg", "pexels-jay-pizzle-3802510.jpg", "pexels-prime-cinematics-2036544.jpg", "pexels-s-von-hoerst-2676096.jpg"];
         var i =0;
         var t;
         function timedSlideShow(){
-            if(imgs.length == i){
+            if(i == imgs.length-1){
                 i = 0;
             }
             else{
@@ -22,7 +22,7 @@
 
         function stopTimeOut(){
             clearTimeout(t)
-            document.sld.src = "pexels-arnie-watkins-31564821.jpg"
+            document.sld.src = "pexels-s-von-hoerst-2676096.jpg"
         }
         
         
